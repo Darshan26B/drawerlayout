@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_tgnwegr"
+        android:icon="@drawable/baseline_groups_24"
+        android:title="New Goup" />
+
+    <item
+        android:id="@+id/item_tgnewsc"
+        android:icon="@drawable/baseline_lock_24"
+        android:title="New Secret Chats" />
+
+    <item
+        android:id="@+id/item_tgnbl"
+        android:icon="@drawable/baseline_broadcast_on_home_24"
+        android:title="New  Broadcast List" />
+    <item android:title="">
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/item_tgcon"
+                    android:icon="@drawable/baseline_contacts_24"
+                    android:title="Contacts" />
+                <item
+                    android:id="@+id/item_tgif"
+                    android:icon="@drawable/addgroup"
+                    android:title="Invite Friends" />
+                <item
+                    android:id="@+id/item_tgst"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="Setting" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
